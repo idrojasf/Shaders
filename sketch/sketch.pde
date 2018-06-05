@@ -6,8 +6,8 @@ Movie selVideo;
 
 PShader edge;
 PShader emboss;
-PShader toon1;
-PShader toon2;
+PShader deuter;
+PShader prota;
 PShader pixelate;
 PShader invert;
 
@@ -28,22 +28,22 @@ void setup() {
   invert = loadShader("shaders/invert.glsl");
   pixelate = loadShader("shaders/pixelate.glsl");
   emboss = loadShader("shaders/emboss.glsl");
-  toon1 = loadShader("shaders/color1.glsl");
-  toon2 = loadShader("shaders/color2.glsl");
+  deuter = loadShader("shaders/color1.glsl");
+  prota = loadShader("shaders/color2.glsl");
   if (applyFilt){
       if(deut)
-        toon1.set("deuteranopia", true);
+        deuter.set("deuteranopia", true);
       if(deutFilt)
-        toon1.set("deuteranopiaFilter", true);
+        deuter.set("deuteranopiaFilter", true);
   }
   if (applyFilt){
       if(prot)
-        toon2.set("protanopia", true);
+        prota.set("protanopia", true);
       if(protFilt)
-        toon2.set("protanopiaFilter", true);
+        prota.set("protanopiaFilter", true);
   }
-  filter(toon1);
-  filter(toon2);
+  filter(deuter);
+  filter(prota);
   video.loop();
 }
 
@@ -63,21 +63,21 @@ void keyPressed(){
  if (key == '1'){
     shader(edge);
  }
-  if (key == '2'){
-   shader(toon1);
- }
- if (key == '3'){
-   shader(toon2);
- }
- if (key == '4'){
+ if (key == '2'){
    shader(invert);
  }
- if (key == '5'){
+ if (key == '3'){
    pixelate.set("pixels", 0.1 * mouseX, 0.1 * mouseY);
    shader(pixelate);
  }
-  if (key == '6'){
+  if (key == '4'){
     shader(emboss);
+ }
+ if (key == '5'){
+   shader(deuter);
+ }
+ if (key == '6'){
+   shader(prota);
  }
 }
 void drawFPSCounter(){
