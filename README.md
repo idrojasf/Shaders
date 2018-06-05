@@ -1,12 +1,13 @@
 # Shaders
 
-Integrantes: Iván Dario Rojas Flórez
+### Integrantes: 
+Iván Dario Rojas Flórez
 
-Objetivos: 
+### Objetivos: 
 
 Por medio del uso de Shaders, mostrar las diferentes modificaciones que se le pueden realizar a un archivo ya sea de tipo imagen o tipo video.
 
-Breve descripción: 
+### Breve descripción: 
 
 Inicialmente se plantea la modificación de imagenes con la ayuda de Shaders utilizando convoluciones y demas herramientas capaces de alterar las imagenes. 
 Luego de haber solucionado el inconveniente con la libreria de Processing.video debido a los inconvenientes presentados por el uso del sistema operativo Windows 10, se inicia con la manipulación y pruba de videos de mayor tamaño. 
@@ -15,7 +16,17 @@ Se parte de la implementación de los filtros convencionales agregando ciertas m
 Ademas de eso, se implementa la idea de vision con deuteranopia y Protanopia, el cual es un defecto moderadamente grave en el cual falta o padece una disfunción de uno de los tres mecanismos básicos del color.
 Lo que se busca mostrar con estos ultimos dos efectos es la forma en como las personas que sufren este tipo de transtorno perciben los colores que les rodean, ademas de entender la situación y valorar la condición que presentan. 
 
-Bibliografia:
+ Tecla | Descripción 
+ ------ | ------ 
+ 0 | Desactiva los shaders 
+ 1 | Activa "edge" 
+ 2 | Activa "invert" 
+ 3 | Activa "Pixelate" 
+ 4 | Activa "emboss"
+ 5 | Activa "deuter" 
+ 6 | Activa "prota"  
+
+### Bibliografia:
 
 - https://processing.org/tutorials/pshader/
 - https://arxiv.org/pdf/1711.10662.pdf
