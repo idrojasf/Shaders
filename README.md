@@ -25,11 +25,16 @@ Lo que se busca mostrar con estos ultimos dos efectos es la forma en como las pe
  4 | Activa "emboss"
  5 | Activa "deuter" 
  6 | Activa "prota"  
+ 
+ ### Video escogido: 
+ Se escoge este video por el resalte de colores fundamentales para la demostración.
+ "Pelea en la carretera" - Clip Doblado (HD) (+16) 20th Century Fox & Marvel Movie 2016: https://www.youtube.com/watch?v=ZWmfPzwgHNk
+
 
 ### Bibliografia:
-
+- https://github.com/codeanticode/pshader-tutorials
 - https://processing.org/tutorials/pshader/
+- https://github.com/genekogan/Processing-Shader-Examples
 - https://arxiv.org/pdf/1711.10662.pdf
 - https://thebookofshaders.com/06/
-- https://github.com/genekogan/Processing-Shader-Examples
 
