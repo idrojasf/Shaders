@@ -35,12 +35,12 @@ Los primeros tres filtros agregados son implementados de "https://github.com/gen
  Se escoge este video por el resalte de colores fundamentales para la demostración.
  "Pelea en la carretera" - Clip Doblado (HD) (+16) 20th Century Fox & Marvel Movie 2016: https://www.youtube.com/watch?v=ZWmfPzwgHNk
 
-### discusión de los resultados: 
+### Discusión de los resultados: 
 Al momento de ejecutar el programa, se puede obervar el video sin ningun filtro agregado. Se tienen teclas especificas para la observación de los 6 filtros (por el momento) como lo muestra la anterior tabla. 
 
 Principalmente se puede observar como los diferentes efectos de daltonismo son mostrados, dando a conocer la forma en como las personas con esta discapacidad ven el mundo. Con estos resultados podemos entender y apropiarnos de la problematica a la cual se enfrentan, para poder plantear unas propuestas e ideas concernientes a la solución o mejoramiento de la visión en dichas personas. 
 
-### trabajo futuro: 
+### Trabajo futuro: 
 A corto plazo: 
 - Terminar la implementación de Titranopia, debido a que los valores usados actualmente, no estan generando los valores oprimos para una correcta visualicación del defecto visual. 
 - Mostrar los efectos usando la camara integrada del dispositivo a utilizar. Se propondra la opción de elección donde se pueda ver la imagen de la camara integrada usando estos efectos y ademas, utilizar el video que viene por defecto para realizar una comparación de estas opciones.
