@@ -36,6 +36,9 @@ Los primeros tres filtros agregados son implementados de "https://github.com/gen
  "Pelea en la carretera" - Clip Doblado (HD) (+16) 20th Century Fox & Marvel Movie 2016: https://www.youtube.com/watch?v=ZWmfPzwgHNk
 
 ### Discusión de los resultados: 
+
+![Alt Text](data/filtros.gif)
+
 Al momento de ejecutar el programa, se puede obervar el video sin ningun filtro agregado. Se tienen teclas especificas para la observación de los 6 filtros (por el momento) como lo muestra la anterior tabla. 
 
 Principalmente se puede observar como los diferentes efectos de daltonismo son mostrados, dando a conocer la forma en como las personas con esta discapacidad ven el mundo. Con estos resultados podemos entender y apropiarnos de la problematica a la cual se enfrentan, para poder plantear unas propuestas e ideas concernientes a la solución o mejoramiento de la visión en dichas personas. 
