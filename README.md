@@ -37,7 +37,7 @@ Los primeros tres filtros agregados son implementados de "https://github.com/gen
 
 ### Discusión de los resultados: 
 
-![Alt Text](data/filtros.gif)
+![Alt Text](sketch/data/filtros.gif)
 
 Al momento de ejecutar el programa, se puede obervar el video sin ningun filtro agregado. Se tienen teclas especificas para la observación de los 6 filtros (por el momento) como lo muestra la anterior tabla. 
 
