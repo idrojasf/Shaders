@@ -8,11 +8,13 @@ PShader edge;
 PShader emboss;
 PShader deuter;
 PShader prota;
+PShader trit;
 PShader pixelate;
 PShader invert;
 
 boolean applyFilt = true, deut = true, deutFilt = true;
 boolean prot = true, protFilt = true;
+boolean trita = true, tritaFilt = true;
 
 //FPS counter variables
 int fcount, lastm;
@@ -30,6 +32,7 @@ void setup() {
   emboss = loadShader("shaders/emboss.glsl");
   deuter = loadShader("shaders/color1.glsl");
   prota = loadShader("shaders/color2.glsl");
+  trit = loadShader("shaders/color3.glsl");
   if (applyFilt){
       if(deut)
         deuter.set("deuteranopia", true);
@@ -40,10 +43,17 @@ void setup() {
       if(prot)
         prota.set("protanopia", true);
       if(protFilt)
-        prota.set("protanopiaFilter", true);
+        prota.set("protanopiaFilter", false);
+  }
+  if (applyFilt){
+      if(trita)
+        trit.set("tritanopia", true);
+      if(tritaFilt)
+        trit.set("tritanopiaFilter", true);
   }
   filter(deuter);
   filter(prota);
+  filter(trit);
   video.loop();
 }
 
@@ -78,6 +88,9 @@ void keyPressed(){
  }
  if (key == '6'){
    shader(prota);
+ }
+ if (key == '7'){
+   shader(trit);
  }
 }
 void drawFPSCounter(){
